@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
@@ -17,6 +21,7 @@
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <style>
       body {
+        font-family: Figtree;
         height: 100vh;
         padding: 0px;
         margin: 0px;
@@ -29,50 +34,62 @@
         margin: 0px;
         display: flex;
         flex-direction: column;
-        justify-content: baseline;;
+        justify-content: space-between;
         background-color: hsl(0, 0%, 100%);
         border-radius: 1.5rem;
         width: 280px;
         height: fit-content;
         border: black solid 1px;
         padding: 1.5rem;
+        box-shadow: 10px 10px;
       }
-      .container h1{
-        margin-top: 10px;
-        font-size: 16px;
+      .container h1 {
+        margin-top: 15px;
+        font-size: 13px;
+        font-weight: 500;
       }
-      .container h2{
+      .container h2 {
         margin: 0px;
+        font-weight: 800;
+        font-size: 20px;
+      }
+      .container p {
+        font-size: 14px;
+        color: hsl(0, 0%, 50%);
+        font-weight: 500;
       }
       img {
         border-radius: 0.75rem;
       }
       .yellow-box {
-        width: fit-content;
-        height: 6px;
+        display: table;
+        height: 1px;
+        width: 1px;
         background-color: hsl(47, 88%, 63%);
-        border-radius: 0.25rem;
-        padding: 0.75rem;
-        margin-top: 25px;
-        align-content: center;
+        padding: .4rem;
+        border-radius: .5rem;
+        margin-top: 10px;
       }
-      .yellow-box h1 {
-        font-size: 16px;
 
+      .yellow-box h1 {
+        font-size: 12px;
+        font-weight: 800;
+        margin: 0px;
+        margin-left: 5px;
+        margin-right: 5px;
       }
-      .footer{
+      .footer {
         display: flex;
         flex-direction: row;
         align-items: center;
         width: 100%;
         height: fit-content;
         margin: 0px;
-        
       }
-      .footer h1{
+      .footer h1 {
+        font-weight: 800;
         font-size: 16px;
         margin: 15px;
-        
       }
       .attribution {
         font-size: 11px;
@@ -91,9 +108,16 @@
       </div>
       <h1>Publish 21 Dec 2023</h1>
       <h2>HTML & CSS foundations</h2>
-      <p>These languages are the backbone of every website, defining structure, content, and presentation.</p>
+      <p>
+        These languages are the backbone of every website, defining structure,
+        content, and presentation.
+      </p>
       <div class="footer">
-        <img src="/assets/images/image-avatar.webp" width="30px" height="30px">
+        <img
+          src="/assets/images/image-avatar.webp"
+          width="30px"
+          height="30px"
+        />
         <h1>Greg Hooper</h1>
       </div>
     </div>
