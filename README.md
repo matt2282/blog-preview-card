@@ -1,7 +1,7 @@
 # Frontend Mentor - Blog preview card
 
 ![Design preview for the Blog preview card coding challenge](./design/desktop-preview.jpg)
-
+## Live URL Link: https://matt2282.github.io/blog-preview-card/
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
